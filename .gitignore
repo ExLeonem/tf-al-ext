@@ -1,0 +1,12 @@
+
+# Ignore caches
+**.pytest_cache
+**__pycache__
+
+# Ignore test and coverage reports
+**.coverage
+
+# Ignore build files
+/.eggs
+/dist
+/docs/_build

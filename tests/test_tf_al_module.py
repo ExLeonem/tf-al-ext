@@ -1,5 +1,10 @@
-from tf_al_module import __version__
 
 
-def test_version():
-    assert __version__ == '0.1.0'
+def test_simple_assert():
+    assert True
+
+
+class ModuleTest:
+
+    def test_structured():
+        assert True
